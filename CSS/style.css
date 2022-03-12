@@ -156,6 +156,12 @@ div.dataTables_paginate {
 
 /* Footer */
 
+@media screen and (max-width: 575px) {
+  footer {
+    width: 120%;
+  }
+}
+
 footer p {
   font-size: 14px;
 }
