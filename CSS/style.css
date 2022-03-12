@@ -38,6 +38,20 @@ a {
   font-size: 12px;
 }
 
+@media screen and (max-width: 400px) {
+  .navbar-brand img {
+    width: 135px;
+    height: 35px;
+  }
+  .user-name a {
+    font-size: 13px;
+  }
+
+  .user-role a {
+    font-size: 11px;
+  }
+}
+
 /* Navbar end */
 
 /* Aside Start */
